@@ -1,5 +1,6 @@
 # jq-test-template
 Just a project template for testing JavaScript apps. It already includes jQuery, since it's my JS framework of choice, most of the time.
+Hint: if you run it in the Chrome browser, you get a cool notification window for the tests results! ;-)
 
 ## Structure
 The project follows this basic file structure to start with:

@@ -3,4 +3,3 @@ var notifier = new Notifier({
     warning: 'exclamation-red-circle.png',
     ok: 'correct-valid-properties-green-circle.png'
 });
-window.webkitNotifications.requestPermission();

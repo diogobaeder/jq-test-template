@@ -27,3 +27,4 @@ or any helper that abstracts the functionality above.
 ## License
 Since this project does not provide any production code - it's just a skelleton for new projects -, there's no need to attach it to any license.
 Just keep in mind to use licenses compatible to the libraries used here (like QUnit and jQuery).
+As for the icons, they're from the free Phoenity Alpha icon pack (can't find the link to it right now).

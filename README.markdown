@@ -3,5 +3,6 @@ Just a project template for testing JavaScript apps. It already includes jQuery,
 
 ## Structure
 The project follows this basic file structure to start with:
-- <strong>src/</strong> - directory for source files
-- <strong>src/core.js</strong> - core library script
+
+* <strong>src/</strong> - directory for source files
+* <strong>src/core.js</strong> - core library script

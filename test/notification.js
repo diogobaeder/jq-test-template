@@ -28,28 +28,13 @@ var webkitPrototype = {
         return true;
     },
     info: function(title, body){
-        var that = this;
-        if (
-            !this.checkPermission(function(){that.info(title, body)})
-            ) return;
-        this._notifications.createNotification(this.icons.info, title, body).show();
-        return true;
+        return this.run(this.icons.info, title, body, this.info);
     },
     warning: function(title, body){
-        var that = this;
-        if (
-            !this.checkPermission(function(){that.warning(title, body)})
-            ) return;
-        this._notifications.createNotification(this.icons.warning, title, body).show();
-        return true;
+        return this.run(this.icons.warning, title, body, this.warning);
     },
     ok: function(title, body){
-        var that = this;
-        if (
-            !this.checkPermission(function(){that.ok(title, body)})
-            ) return;
-        this._notifications.createNotification(this.icons.ok, title, body).show();
-        return true;
+        return this.run(this.icons.ok, title, body, this.ok);
     },
     run: function(icon, title, body, callback) {
         if (

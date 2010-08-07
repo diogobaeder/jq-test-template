@@ -21,6 +21,7 @@ like using
     window.addEventListener('load', function(){ "tests here using standards-friendly browsers"; })
 or
     window.attachEvent('onload', function(){ "tests here using old Internet Explorer versions"; })
+or any helper that abstracts the functionality above.
 
 
 ## License
